@@ -9,8 +9,8 @@ expense and time and accomplish better usefulness. Our Aim is to replace the phy
 ![Food](Img/Kiosk.gif)
 
 ### Files
-- Img -----------------> Contains images for README.md
-- README.md -------> This markdown file you are reading.
+- Img ----------------> Contains images for README.md
+- README.md ------> This markdown file you are reading.
 - hand.py ---------- > First Python file which detects hand.
 - mouse.py ---------> Second python file which use first file and blend with a mouse functionality.   
 - Requirement.txt--> Required imports to run the program successfully.
