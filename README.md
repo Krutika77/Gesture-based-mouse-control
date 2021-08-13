@@ -5,7 +5,7 @@ Research. MediaPipe is an open-source library created by Google
 to comprehend the essentials of computer vision. 
 The point of this venture is to expand the limit and bring 
 out true items which can assist any association with saving 
-expense and time and accomplish better usefulness. Our Aim is to replace the physical touch
+expense and time and accomplish better usefulness. Our Aim is to replace the physical touch. 
 ![Food](Img/Kiosk.gif)
 
 ### Files
@@ -19,7 +19,7 @@ expense and time and accomplish better usefulness. Our Aim is to replace the phy
 Mediapipe is an exceptionally progressed cv library, created by Google.
 [ Visit the site for information ](https://google.github.io/mediapipe/solutions/hands.html "Mediapipe Hands"). 
 They make use of two main models Palm detection model and the Hand landmarks model. The point of hand.py is to distinguish hand(s) in the 3d plane and return its (x, y, z) facilitates. 
-Any hand(s) has 22 focuses (0 - 21) as displayed underneath. 
+Any hand(s) has 21 focuses (0 - 20) as displayed underneath. 
 Moreover, mouse.py is the main program that interprets 
 the hand from hand.py and enables mouse movement using GUI library Autopy.
 
