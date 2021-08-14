@@ -9,7 +9,7 @@ import cv2
 import autopy  # GUI library used for controlling mouse.
 import numpy as np
 import time
-import hand as hg  # Importing first program hands.py as hg
+import hand as hg  # Importing first program hands.py as hgq
 
 # Defining the frame size. This is the best chosen frame size after 163 sample run. Remember: Frame size is inversely
 # proportional to the Frame Rate. The smaller the Frame Size, the better the frame rate.
@@ -80,7 +80,7 @@ while True:
 
     cv2.imshow('HandCapture', image)
 
-    if cv2.waitKey(5) & 0xFF == 27:
+    if cv2.waitKey(5) & 0xFF == ord("q"):
         break
 
 cam.release()
