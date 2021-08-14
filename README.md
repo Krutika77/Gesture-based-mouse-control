@@ -18,9 +18,10 @@ expense and time and accomplish better usefulness. Our Aim is to replace the phy
 ### Description
 Mediapipe is an exceptionally progressed cv library, created by Google.
 [ Visit the site for information ](https://google.github.io/mediapipe/solutions/hands.html "Mediapipe Hands"). 
-They make use of two main models Palm detection model and the Hand landmarks model. The point of hand.py is to distinguish hand(s) in the 3d plane and return its (x, y, z) facilitates. 
+They make use of two main models Palm detection model and the Hand landmarks model. The point of _hand.py_ is to 
+distinguish hand(s) in the 3d plane and return its (x, y, z) facilitates. 
 Any hand(s) has 21 focuses (0 - 20) as displayed underneath. 
-Moreover, mouse.py is the main program that interprets 
+Moreover, _mouse.py_ is the main program that interprets 
 the hand from hand.py and enables mouse movement using GUI library Autopy.
 
 ![MediaPipe_hands](https://google.github.io/mediapipe/images/mobile/hand_landmarks.png)
@@ -38,7 +39,7 @@ The following code finds the hand and its coordinate in 3D plane.
                 self.lmlist.append([id, c_x, c_y])
 ```
 ### Installation
-(Optional) Setup a virtual environment to install necessary packages.
+(Optional) setup a virtual environment to install necessary packages.
 ``` commandline
 virtualenv .venv
 source .venv/bin/activate
@@ -49,13 +50,15 @@ pip install -r requirements.txt
 ```
 Run Mouse.py to see the final result.
 
+__Note__: Autopy library is only supported on python 3.7 or lower.
+
 ### Usage
 This program is simple and can be run using command line in system where python is already installed
 ```shell
 Python mouse.py
 ```
 #### Steps:
-1. First, run hands.py, You will see an external window capturing your video and detecting hands.Refer to the image below:
+1. First, run _hands.py_, You will see an external window capturing your video and detecting hands.Refer to the image below:
 ![Hand Image](Img/hand_model_1.JPG)
 2. After a successful run, open mouse.py and run the file. 
    Now the screen will appear like this:- 
@@ -94,4 +97,4 @@ This project is completely open-source and does not require any license to use i
 
 ### Project Status
 You may expect many future enchantments in this file. This project is currently monitored by the team.
-* last Modification:- 08/13/2021 (mm/dd/yy)
+* Last modification:- 08/13/2021 (mm/dd/yy)
