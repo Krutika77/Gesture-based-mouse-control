@@ -1,19 +1,14 @@
-## Food Ordering System based on Hand Gesture Recognition (v 1.0)
+## Mouse Control using Hand Gesture Recognition (v 1.0)
 Computer vision is the most mainstream field today. 
 Hand Gesture is quite possibly the most development continuous 
 Research. MediaPipe is an open-source library created by Google 
 to comprehend the essentials of computer vision. 
-The point of this venture is to expand the limit and bring 
-out true items which can assist any association with saving 
-expense and time and accomplish better usefulness. Our Aim is to replace the physical touch. 
-![Food](Img/Kiosk.gif)
+
 
 ### Files
-- Img ----------------> Contains images for README.md
-- README.md ------> This markdown file you are reading.
 - hand.py ---------- > First Python file which detects hand.
 - mouse.py ---------> Second python file which use first file and blend with a mouse functionality.   
-- Requirement.txt--> Required imports to run the program successfully.
+
 
 ### Description
 Mediapipe is an exceptionally progressed cv library, created by Google.
@@ -23,8 +18,6 @@ distinguish hand(s) in the 3d plane and return its (x, y, z) facilitates.
 Any hand(s) has 21 focuses (0 - 20) as displayed underneath. 
 Moreover, _mouse.py_ is the main program that interprets 
 the hand from hand.py and enables mouse movement using GUI library Autopy.
-
-![MediaPipe_hands](https://google.github.io/mediapipe/images/mobile/hand_landmarks.png)
 
 The following code finds the hand and its coordinate in 3D plane.
 ``` python
@@ -78,23 +71,3 @@ cam = cv2.VideoCapture(0)  # capture video from inbuilt camera port = 0
 #or
 cam = cv2.VideoCapture(1)  # capture video from external camera port = 1
 ```
-### Support
-You can contact Author's for any support.
-* __Email__: [Team](mailto:singhs171@lakeheadu.ca?subject=[GitHub]%20Source%20Han%20Sans)
-* __Discord__: **sachin_singh#4558**
-### Acknowledgement 
-I Would like to give credits to 
-* Mediapipe developers for contributing the best open source computer vision library.[Website](https://google.github.io/mediapipe/)
-* Murtaza's Workshop - Robotics and AI. [Website](https://www.computervision.zone/courses/hand-tracking/
-)
-* Professor Dr. Garmia Bajwa, Lakehead University, Thunder Bay, ON, Canada.   
- ### Road Map
-1. We can replace billing monitor touch at walmart, superstores etc.using this application.
-2. Touch-less User Interface (TUI) can be implemented in hospitals.
-
-### License
-This project is completely open-source and does not require any license to use it.
-
-### Project Status
-You may expect many future enchantments in this file. This project is currently monitored by the team.
-* Last modification:- 08/13/2021 (mm/dd/yy)
