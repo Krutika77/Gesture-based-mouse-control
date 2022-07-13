@@ -51,17 +51,10 @@ This program is simple and can be run using command line in system where python 
 Python mouse.py
 ```
 #### Steps:
-1. First, run _hands.py_, You will see an external window capturing your video and detecting hands.Refer to the image below:
-![Hand Image](Img/hand_model_1.JPG)
+1. First, run _hands.py_, You will see an external window capturing your video and detecting hands.
 2. After a successful run, open mouse.py and run the file. 
-   Now the screen will appear like this:- 
-   ![ Mouse Gif](Img/mouse.gif)
-
 3. Now you must point your index finger towards the screen to move the mouse. 
    Any moment if you wish to right-click join your Index and Middle finger. 
-   You can open any restaurant food ordering website and treat as kiosk for testing.
-   Now, you can add, delete, modify the food items and place you order. 
-
 4. To quit any time simply press q on your keyboard.
 
 _Remember_ the Port(0) is for an internal webcam and Port(1) for any external webcam. Make sure you have assigned
